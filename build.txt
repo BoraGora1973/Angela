@@ -2,3 +2,35 @@ mkdir backend
 cd backend
 npm init -y
 npm i express cors
+
+
+---- 
+git config --global user.name "Bora Gora"
+git config --global user.email "boris.gorenshtein@gmail.com"
+git init
+git add .
+git commit -m "backend init"
+
+-----
+
+git remote add origin https://github.com/<USERNAME>/<REPO>.git
+git remote add origin https://github.com/BoraGora1973/Angela.git
+git branch -M main
+git push -u origin main
+
+-----
+
+git remote -v
+
+------
+
+git remote set-url origin https://github.com/BoraGora1973/Angela.git
+git remote -v
+git push -u origin main
+
+----
+
+git config --global credential.helper manager
+git push -u origin main
+
+
