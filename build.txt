@@ -33,4 +33,35 @@ git push -u origin main
 git config --global credential.helper manager
 git push -u origin main
 
+-----
+
+git push -u origin main
+
+----
+
+git branch
+
+git branch -M main
+git push -u origin main
+
+-----
+
+git config --global credential.helper manager
+git push -u origin main
+
+-----
+
+Deploy
+------------------------------------------------------------------------------------------
+https://render.com
+https://dashboard.render.com/web/srv-d5hi22t6ubrc7381275g/deploys/dep-d5hi2356ubrc738127b0
+ Available at your primary URL https://angela-hkih.onrender.com
+ https://angela-hkih.onrender.com
+ https://angela-hkih.onrender.com/api/hello
+
+https://angela-hkih.onrender.com/health
+     {"ok":true}
+	 
+https://angela-hkih.onrender.com/api/hello
+     {"message":"Hello from Express backend"}
 
