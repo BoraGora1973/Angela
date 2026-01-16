@@ -51,7 +51,16 @@ git push -u origin main
 
 -----
 
-Deploy
+backend change
+--------------------
+git add .
+git commit -m "Enable CORS"
+git push
+
+frontend change
+--------------------
+
+Deploy Backend
 ------------------------------------------------------------------------------------------
 https://render.com
 https://dashboard.render.com/web/srv-d5hi22t6ubrc7381275g/deploys/dep-d5hi2356ubrc738127b0
@@ -64,4 +73,48 @@ https://angela-hkih.onrender.com/health
 	 
 https://angela-hkih.onrender.com/api/hello
      {"message":"Hello from Express backend"}
+	 
+
+Deploy Frontend
+------------------------------------------------------------------------------------------	 
+https://vercel.com/
+https://vercel.com
+https://vercel.com/boragoras-projects/angela-front-end-7no4
+https://angela-front-end-7no4.vercel.app/
+https://angela-hkih.onrender.com/api/hello
+https://angela-front-end-7no4.vercel.app/
+
+Check Backend Test 1
+	https://angela-hkih.onrender.com/api/hello -> return {"message":"Hello from Express backend"}
+
+Check Frontend Test 2
+	https://angela-front-end-7no4.vercel.app
+	https://angela-front-1qo03zh4l-boragoras-projects.vercel.app/
+	
+Summery
+	זה אומר ש־הכול מחובר נכון:	
+	✅ Frontend (React / CRA) על Vercel
+	✅ Backend (Node/Express) על Render
+	✅ ENV עבר נכון (REACT_APP_API_BASE)
+	✅ CORS תקין
+	✅ נגיש מכל מקום באינטרנט
+
+
+=====================================
+STEP 2
+=====================================
+npm install multer cloudinary
+
+Open Acount
+https://console.cloudinary.com/app/c-c114147d405ae200a4213fd3ddfeb3/image/getting-started
+https://cloudinary.com/pages/home-4/?utm_source=google&utm_medium=search&utm_campaign=1329_goog_selfserve_brand_wk22_replicate_core_branded_keyword&campaignid=17601148700&adgroupid=141182782954&keyword=cloudinary&device=c&matchtype=p&adid=606528222172&adposition=&gad_source=1&gad_campaignid=17601148700&gbraid=0AAAAADjHi9A_65iIFHhhi6bC5vihIVCs7&gclid=CjwKCAiA4KfLBhB0EiwAUY7GAbWhByPGS9fFOFb9G8-4HipbGhfzE_tYIGuQPdmIgXYUg4yEvhilkxoC4vwQAvD_BwE
+
+Cloud name: 							 dughn8wgs
+										 dughn8wgs
+API key:								 717255317414593
+										 717255317414593
+API secret: 							 A8pI3atntFZOmz2dHbwjNaBtPYU
+										 A8pI3atntFZOmz2dHbwjNaBtPYU
+API environment variable: CLOUDINARY_URL=cloudinary://717255317414593:A8pI3atntFZOmz2dHbwjNaBtPYU@dughn8wgs
+
 
