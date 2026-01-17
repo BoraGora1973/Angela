@@ -89,7 +89,7 @@ app.get("/api/hello", (req, res) => {
 // Test Backend Request Response => /test
 // 
 
-app.get("/api/hello", (req, res) => {
+app.get("/test", (req, res) => {
   res.json({ message: "Test Message From Boris Backend, V01" });
 });
 
