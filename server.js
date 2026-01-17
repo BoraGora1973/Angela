@@ -82,7 +82,7 @@ app.get("/health", (req, res) => res.json({ok: true }));
 // 
 
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Message From Boris Backend, V01" });
+  res.json({ message: "Message From Boris Backend, V02" });
 });
 
 //
@@ -90,8 +90,8 @@ app.get("/api/hello", (req, res) => {
 // 
 
 app.get("/test", (req, res) => {
-  res.json({ message: "Test Message From Boris Backend, V01" });
+  res.json({ message: "Test Message From Boris Backend, V02" });
 });
 
 const port = process.env.PORT || 5000;
-app.listen(port, () => console.log("Server listening on", port));
+app.listen(port, () => console.log("Server listening on, V02", port));
