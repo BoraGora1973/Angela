@@ -1,4 +1,8 @@
 
+// git add .
+// git commit -m "code 1"
+// git push -u origin main
+
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
@@ -71,14 +75,22 @@ app.get("/api/images", async (req, res) => {
 //
 // Test Backend Ok => /health
 // 
-app.get("/health", (req, res) => res.json({ ok: true }));
+app.get("/health", (req, res) => res.json({ok: true }));
 
 //
 // Test Backend Request Response => /api/hello
 // 
 
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello from Express backend" });
+  res.json({ message: "Message From Boris Backend, V01" });
+});
+
+//
+// Test Backend Request Response => /test
+// 
+
+app.get("/api/hello", (req, res) => {
+  res.json({ message: "Test Message From Boris Backend, V01" });
 });
 
 const port = process.env.PORT || 5000;

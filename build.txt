@@ -68,6 +68,10 @@ https://dashboard.render.com/web/srv-d5hi22t6ubrc7381275g/deploys/dep-d5hi2356ub
  https://angela-hkih.onrender.com
  https://angela-hkih.onrender.com/api/hello
 
+Add Var
+============================================================================================
+REACT_APP_API_BASE https://angela-hkih.onrender.com
+
 https://angela-hkih.onrender.com/health
      {"ok":true}
 	 
@@ -117,4 +121,8 @@ API secret: 							 A8pI3atntFZOmz2dHbwjNaBtPYU
 										 A8pI3atntFZOmz2dHbwjNaBtPYU
 API environment variable: CLOUDINARY_URL=cloudinary://717255317414593:A8pI3atntFZOmz2dHbwjNaBtPYU@dughn8wgs
 
+AngelaApp
+CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
 
